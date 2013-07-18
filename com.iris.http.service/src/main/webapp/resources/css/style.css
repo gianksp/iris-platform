@@ -1,0 +1,127 @@
+html
+{
+	background:#272A2F;
+	color:#3D434F;
+	font-size:100%
+}
+html, input
+{
+	font-family:Helvetica, Arial, sans-serif;
+}
+body
+{
+	margin:0
+}
+#login
+{
+	width:400px;
+	position:relative;
+	margin:100px auto;	
+}
+form
+{
+	border-radius:10px;
+	-moz-border-radius:10px;
+	padding:20px 0 30px 20px;
+	background:#151719;
+}
+input
+{
+	line-height:2em;
+	font-size:.9em;
+	padding:.5em;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	border:0;
+	margin:0;
+	display:block;
+	width:270px;
+	background:transparent;
+	color:#76D1E5;
+}
+p
+{
+	margin-left:20px;
+	font-size:.9em;
+	text-shadow:0 2px 3px #111;
+}
+hr
+{
+	border:0;
+	border-bottom:3px solid #272A2F;
+	margin:0;
+	margin-left:5px;
+}
+p + hr
+{
+	border-bottom:3px solid #151719;
+}
+input[type="submit"]
+{
+        cursor:pointer;
+	background:#151719 url('../images/arrow.png') no-repeat center center;
+	position:absolute;
+	padding:0;
+	top:2.5em;
+	right:-25px;
+	-webkit-box-shadow:inset 0 0 1px 1px transparent, 0 0 1px 6px #272A2F;
+	-moz-box-shadow:inset 0 0 1px 1px transparent, 0 0 1px 6px #272A2F;
+	box-shadow:0 0 1px 6px #272A2F;
+	-moz-border-radius:50px;
+	border-radius:50px;
+	width:50px;
+	height:50px;
+	text-indent:-9999px;
+	-webkit-transition:-webkit-box-shadow 1s ease-in-out;
+	-moz-transition:-moz-box-shadow 1s ease-in-out;
+}
+input[type="submit"]:hover
+{
+    cursor:pointer;
+	-webkit-box-shadow:inset 0 0 1px 1px #76D1E5, 0 0 1px 6px #272A2F;
+	-moz-box-shadow:inset 0 0 1px 1px #76D1E5, 0 0 1px 6px #272A2F;
+	box-shadow:inset 0 0 1px 1px #76D1E5, 0 0 1px 6px #272A2F;
+	-webkit-transition:-webkit-box-shadow .1s ease-in-out;
+	-moz-transition:-moz-box-shadow .1s ease-in-out;
+	background-image:url('../images/arrowh.png');
+}
+input::-webkit-input-placeholder { color:#3D434F; }
+input:-moz-placeholder { color:#3D434F; }
+input[type="submit"]::-moz-focus-inner
+{
+	border: 0;
+}
+input:focus
+{
+	outline:0
+}
+a
+{
+	color:#6f7787;
+	text-decoration:none;
+	-webkit-transition:color 1s ease-in-out;
+	-moz-transition:color 1s ease-in-out;
+}
+a:hover
+{
+	color:#76D1E5;
+	text-decoration:underline;
+	-webkit-transition:color .1s ease-in-out;
+	-moz-transition:color .1s ease-in-out;
+}
+@media screen and (max-width:450px){#login{width:350px;}}
+@media screen and (max-width:400px){#login{width:300px;}}
+@media screen and (max-width:350px){#login{width:280px;}form{padding-left:10px;}input[type="submit"]{right:-15px}}
+
+
+
+#login
+{
+	width:400px;
+	position:relative;
+	margin:100px auto;	
+}
+
+@media screen and (max-width:450px){#chat{width:350px;}}
+@media screen and (max-width:400px){#chat{width:300px;}}
+@media screen and (max-width:350px){#chat{width:280px;}form{padding-left:10px;}input[type="submit"]{right:-15px}}
